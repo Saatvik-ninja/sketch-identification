@@ -1,0 +1,36 @@
+body{
+    background-image: url(car.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#Identification{
+    color:red;
+}
+#remove{
+    background-color: #5609b5;
+    color: skyblue;
+}
+
+#label,#confidence{
+    font-size: 20px;
+    color: gold;
+}
+
+canvas{
+    border: 5px solid green;
+    animation-name:HI;
+    animation-duration: 4s;
+    animation-iteration-count: infinite; 
+    margin-top: 50px;
+}
+
+@keyframes HI{
+    from{
+        box-shadow: 1px 1px 30px red;
+    }
+    to{
+        box-shadow: 1px 1px 30px blue;
+    }
+}
